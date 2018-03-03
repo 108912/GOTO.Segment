@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SqlServerXml>
+	<SqlServerList>
+		<BaseNumber>1111</BaseNumber>
+		<Number>10111</Number>
+		<ServerName>192.168.0.111</ServerName>
+		<ServerPort>1433</ServerPort>
+		<ServerUserName>sa</ServerUserName>
+		<ServerUserPwd>123</ServerUserPwd>
+		<StorageSize>94371840</StorageSize>
+		<RetainStorageSize>10485760</RetainStorageSize>
+		<DBType>sqlserver</DBType>
+		<DatabaseNum>10</DatabaseNum>
+		<StorageDirectory>D:\dbtest\db1</StorageDirectory>
+		<IsWrite>false</IsWrite>
+		<IsUse>true</IsUse>
+		<IsCreate>true</IsCreate>
+	</SqlServerList>
+</SqlServerXml>

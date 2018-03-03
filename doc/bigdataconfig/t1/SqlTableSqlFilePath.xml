@@ -1,0 +1,1 @@
+CREATE TABLE {0}(	[id] [bigint] primary key ,	[num1] [int] NULL,	[num2] [bigint] NULL,	[num3] [float] NULL,	[str11] [nvarchar](50) NULL,	[createdate] [datetime] default getdate(),	[isdelete] [bit] default 0);

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SqlBaseXml>
+	<SqlBaseList>
+		<Number>1111</Number>
+		<SocketMillisecondsTimeout>100</SocketMillisecondsTimeout>
+		<DatabasePrev>testxmldatabase1_</DatabasePrev>
+		<TablePrev>testxmldatab1_</TablePrev>
+		<PrimarykeyName>id</PrimarykeyName>
+		<FieldIndexList>id</FieldIndexList>
+		<FieldIndexList>num1</FieldIndexList>
+		<FieldIndexList>num2</FieldIndexList>
+		<FieldUpdateList>str11</FieldUpdateList>
+		<FieldUpdateList>createdate</FieldUpdateList>
+		<FileDirDefault>D:\dbtest\db1</FileDirDefault>
+		<DefaultTableNum>10</DefaultTableNum>
+		<DefaultTableRowNum>20000</DefaultTableRowNum>
+		<TemplateSqlConnServer>data source={0};user id={1};password={2};Connect Timeout=120;Pooling=true;Max Pool Size=4000;Min Pool Size=0;</TemplateSqlConnServer>
+		<TemplateSqlConnDatabase>data source={0};initial catalog={1};user id={2};password={3};Connect Timeout=120;Pooling=true;Max Pool Size=4000;Min Pool Size=0;</TemplateSqlConnDatabase>
+		<ServerFilePath>D:\dbtest\t1\SqlServerXml.xml</ServerFilePath>
+		<DatabaseFilePath>D:\dbtest\t1\SqlDatabaseXml.xml</DatabaseFilePath>
+		<TableFilePath>D:\dbtest\t1\SqlTableXml.xml</TableFilePath>
+		<FieldFilePath>D:\dbtest\t1\SqlTableSqlFilePath.xml</FieldFilePath>
+		<TableSqlFilePath>D:\dbtest\t1\SqlFieldXml.xml</TableSqlFilePath>
+		<TableStructFilePath>D:\dbtest\t1\SqlTableStructFilePath.xml</TableStructFilePath>
+	</SqlBaseList>
+	<SqlBaseList>
+		<Number>1112</Number>
+		<SocketMillisecondsTimeout>100</SocketMillisecondsTimeout>
+		<DatabasePrev>testxmldatabase2_</DatabasePrev>
+		<TablePrev>testxmldatab2_</TablePrev>
+		<PrimarykeyName>id</PrimarykeyName>
+		<FieldIndexList>id</FieldIndexList>
+		<FieldIndexList>num1</FieldIndexList>
+		<FieldIndexList>num2</FieldIndexList>
+		<FieldUpdateList>str11</FieldUpdateList>
+		<FieldUpdateList>createdate</FieldUpdateList>
+		<FieldUpdateList>num3</FieldUpdateList>
+		<FileDirDefault>D:\dbtest\db2</FileDirDefault>
+		<DefaultTableNum>10</DefaultTableNum>
+		<DefaultTableRowNum>20000</DefaultTableRowNum>
+		<TemplateSqlConnServer>data source={0};user id={1};password={2};Connect Timeout=120;Pooling=true;Max Pool Size=4000;Min Pool Size=0;</TemplateSqlConnServer>
+		<TemplateSqlConnDatabase>data source={0};initial catalog={1};user id={2};password={3};Connect Timeout=120;Pooling=true;Max Pool Size=4000;Min Pool Size=0;</TemplateSqlConnDatabase>
+		<ServerFilePath>D:\dbtest\t2\SqlServerXml.xml</ServerFilePath>
+		<DatabaseFilePath>D:\dbtest\t2\SqlDatabaseXml.xml</DatabaseFilePath>
+		<TableFilePath>D:\dbtest\t2\SqlTableXml.xml</TableFilePath>
+		<FieldFilePath>D:\dbtest\t2\SqlTableSqlFilePath.xml</FieldFilePath>
+		<TableSqlFilePath>D:\dbtest\t2\SqlFieldXml.xml</TableSqlFilePath>
+		<TableStructFilePath>D:\dbtest\t2\SqlTableStructFilePath.xml</TableStructFilePath>
+	</SqlBaseList>
+</SqlBaseXml>
